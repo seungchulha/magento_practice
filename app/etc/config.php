@@ -334,7 +334,7 @@ return [
         'Vertex_Tax' => 1,
         'Vertex_AddressValidationApi' => 1,
         'Vertex_AddressValidation' => 1,
-        'WiseCommerce_ExampleAdminNewPage' => 1,
+        'WiseCommerce_HelloWorldAdmin' => 1,
         'Yotpo_Yotpo' => 1
     ]
 ];

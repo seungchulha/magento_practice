@@ -1,5 +1,5 @@
 <?php
-namespace WiseCommerce\ExampleAdminNewPage\Controller\Adminhtml\HelloWorld;
+namespace WiseCommerce\HelloWorldAdmin\Controller\Adminhtml\HelloWorld;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -12,7 +12,7 @@ use Magento\Framework\View\Result\PageFactory;
  */
 class Index extends Action implements HttpGetActionInterface
 {
-    const MENU_ID = 'WiseCommerce_ExampleAdminNewPage::greetings_helloworld';
+    const MENU_ID = 'WiseCommerce_HelloWorldAdmin::greetings_helloworld';
 
     /**
      * @var PageFactory

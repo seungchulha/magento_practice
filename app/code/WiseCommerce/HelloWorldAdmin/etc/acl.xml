@@ -6,7 +6,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="WiseCommerce_ExampleAdminNewPage::helloworld_config" title="Hello World"/>
+                            <resource id="WiseCommerce_HelloWorldAdmin::helloworld_config" title="Hello World"/>
                         </resource>
                     </resource>
                 </resource>

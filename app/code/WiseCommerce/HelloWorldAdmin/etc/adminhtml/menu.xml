@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add id="WiseCommerce_HelloWorldAdmin::greetings" title="Greetings" translate="title" module="WiseCommerce_HelloWorldAdmin" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="WiseCommerce_HelloWorldAdmin" resource="WiseCommerce_HelloWorldAdmin::greetings"/>
+      <add id="WiseCommerce_HelloWorldAdmin::greetings_helloworld" title="Hello World" translate="title" module="WiseCommerce_HelloWorldAdmin" parent="WiseCommerce_HelloWorldAdmin::greetings" sortOrder="10" dependsOnModule="WiseCommerce_HelloWorldAdmin" action="helloworldadmin/helloworld" resource="WiseCommerce_HelloWorldAdmin::greetings"/>
+    </menu>
+</config>
