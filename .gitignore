@@ -20,3 +20,5 @@ LICENSE_AFL.txt
 nginx.conf.sample
 package.json.sample
 SECURITY.md
+app/code/etc/env.php
+app/code/etc/config.php 
